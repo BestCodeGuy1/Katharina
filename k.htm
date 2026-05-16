@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Katharina | FrindStudio </title>
+    <title> Frindshpip Inkremental | FrindStudio </title>
 </head>
 <body>
+    <h2> Frindshippoints:  </h2>
+    <h2 id="friendshippoint-display"> 0 </h2>
+    <br />
     
+    <button class="add-btn" onclick="addfsp"></button>
+
+    <script rel="javascript">
+        const friendshippointdisplay = document.getElementById("friendship-display")
+        let points = 0
+
+        function addfsp() {
+            points + 1
+            friendshippointdisplay.textContent = points
+        }
+    </script>
 </body>
 </html>

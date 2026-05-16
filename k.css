@@ -1,0 +1,39 @@
+body{
+    background:rgb();
+    background: linear-gradient(209deg, rgba(105, 110, 255, 1) 0%, rgba(248, 172, 255, 1)100%), inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: inherit;
+    font-style: inherit;
+    font-weight: 100;
+    font-feature-settings: "flac";
+    flex: auto;
+    font-variation-settings: inherit;
+}
+
+.add-img{
+    size: 10%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.add-btn{
+    display: none;
+    font-display: block;
+    size: 10%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+h2{
+    font-family: inherit;
+    font-size: inherit;
+    background: rgba(255, 255, 255, 30);
+    flex-basis: content;
+    text-align: center;
+    padding: 24dvh;
+    margin: 24dvh;
+    max-height: 60dvh;
+    max-width: 60dvh;
+}
